@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/bronze/*
+data/silver/*
+logs/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!logs/.gitkeep
