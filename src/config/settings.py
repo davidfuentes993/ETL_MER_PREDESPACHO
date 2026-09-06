@@ -54,6 +54,21 @@ class Settings:
     silver_path: Path
     log_path: Path
 
+    # --- Base de datos ---
+    db_host: str
+    db_port: int
+    db_name: str
+    db_user: str
+    db_password: str
+
+    @property
+    def db_dsn(self) -> str:
+        """Cadena de conexión SQLAlchemy hacia PostgreSQL."""
+        return (
+            f"postgresql+psycopg2://{self.db_user}:{self.db_password}"
+            f"@{self.db_host}:{self.db_port}/{self.db_name}"
+        )
+
     @classmethod
     def load(cls, dotenv_path: str | None = None) -> "Settings":
         """Carga y valida la configuración desde el archivo .env."""
@@ -97,4 +112,9 @@ class Settings:
             log_path=Path(_optional("LOG_PATH", "./logs/pipeline.log")),
             eor_country_codes=country_codes,
             eor_header_row=int(_optional("EOR_HEADER_ROW", "7")),
+            db_host=_require("DB_HOST"),
+            db_port=int(_optional("DB_PORT", "5432")),
+            db_name=_require("DB_NAME"),
+            db_user=_require("DB_USER"),
+            db_password=_require("DB_PASSWORD"),
         )
