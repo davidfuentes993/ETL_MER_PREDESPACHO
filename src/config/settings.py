@@ -46,6 +46,7 @@ class Settings:
     eor_fid_cutoff_date: date
     eor_report_prefix: str
     eor_request_timeout: int
+    eor_country_codes: tuple[str, ...]
 
     # --- Rutas locales (capas del medallón) ---
     bronze_path: Path
@@ -75,6 +76,13 @@ class Settings:
                 f"se recibió: '{cutoff_raw}'"
             ) from exc
 
+        country_codes_raw = _optional(
+            "EOR_COUNTRY_CODES", "OSO001,OSO002,OSO003,OSO004,OSO005,OSO006"
+        )
+        country_codes = tuple(
+                code.strip() for code in country_codes_raw.split(",") if code.strip()
+        )
+
         return cls(
             eor_base_url=_optional("EOR_BASE_URL", "https://www.enteoperador.org/"),
             eor_volume_id=_optional("EOR_VOLUME_ID", "l1"),
@@ -86,4 +94,5 @@ class Settings:
             bronze_path=Path(_optional("BRONZE_PATH", "./data/bronze")),
             silver_path=Path(_optional("SILVER_PATH", "./data/silver")),
             log_path=Path(_optional("LOG_PATH", "./logs/pipeline.log")),
+            eor_country_codes=country_codes,
         )
