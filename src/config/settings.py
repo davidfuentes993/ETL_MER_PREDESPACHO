@@ -47,6 +47,7 @@ class Settings:
     eor_report_prefix: str
     eor_request_timeout: int
     eor_country_codes: tuple[str, ...]
+    eor_header_row: int
 
     # --- Rutas locales (capas del medallón) ---
     bronze_path: Path
@@ -95,4 +96,5 @@ class Settings:
             silver_path=Path(_optional("SILVER_PATH", "./data/silver")),
             log_path=Path(_optional("LOG_PATH", "./logs/pipeline.log")),
             eor_country_codes=country_codes,
+            eor_header_row=int(_optional("EOR_HEADER_ROW", "7")),
         )
