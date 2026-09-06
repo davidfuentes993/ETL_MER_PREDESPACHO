@@ -26,11 +26,11 @@ archivos ZIP organizados por fecha. Este proyecto:
 
 ```mermaid
 flowchart LR
-    CLI["CLI\n--mode / --date"] --> EXT["Extractor\nEORClient"]
-    PORTAL["Portal EOR\n(elFinder)"] --> EXT
-    EXT --> BRONZE["Bronze\nExcel crudo + metadata"]
-    BRONZE --> SILVER["Silver\nParquet tipado y limpio"]
-    SILVER --> GOLD["Gold\nPostgreSQL (3 tablas de hechos)"]
+    CLI["CLI<br/>--mode / --date"] --> EXT["Extractor<br/>EORClient"]
+    PORTAL["Portal EOR<br/>(elFinder)"] --> EXT
+    EXT --> BRONZE["Bronze<br/>Excel crudo + metadata"]
+    BRONZE --> SILVER["Silver<br/>Parquet tipado y limpio"]
+    SILVER --> GOLD["Gold<br/>PostgreSQL (3 tablas de hechos)"]
 ```
 
 **Bronze** — copia fiel del Excel tal como llega del portal, particionado
