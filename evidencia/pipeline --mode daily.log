@@ -1,0 +1,46 @@
+2026-09-06 15:08:51 | INFO     | predespacho_etl | === Iniciando pipeline para fecha=2026-09-07 ===
+2026-09-06 15:08:51 | INFO     | predespacho_etl | Descargando Predespacho fecha=2026-09-07 -> C:\Users\David\AppData\Local\Temp\predespacho_20260907_ouszeljk\PUB004-PRE-20260907.zip
+2026-09-06 15:08:55 | INFO     | predespacho_etl | Descarga OK fecha=2026-09-07 tamaño=8874900 bytes
+2026-09-06 15:08:55 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO001 -> data\bronze\fecha=2026-09-07\pais=OSO001\PUB004-PRE-20260907-OSO001-134702.xlsx
+2026-09-06 15:09:16 | INFO     | predespacho_etl | Silver: 511 filas limpiadas para pais=OSO001 tipo=TCP fecha=2026-09-07
+2026-09-06 15:09:16 | INFO     | predespacho_etl | Silver: 70434 filas limpiadas para pais=OSO001 tipo=TOP fecha=2026-09-07
+2026-09-06 15:09:17 | INFO     | predespacho_etl | Silver: 5592 filas limpiadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:09:17 | INFO     | predespacho_etl | Gold: 511 filas insertadas para pais=OSO001 tipo=TCP fecha=2026-09-07
+2026-09-06 15:09:58 | INFO     | predespacho_etl | Gold: 70434 filas insertadas para pais=OSO001 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:00 | INFO     | predespacho_etl | Gold: 5592 filas insertadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:00 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO002 -> data\bronze\fecha=2026-09-07\pais=OSO002\PUB004-PRE-20260907-OSO002-134919.xlsx
+2026-09-06 15:10:02 | INFO     | predespacho_etl | Silver: 369 filas limpiadas para pais=OSO002 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:02 | INFO     | predespacho_etl | Silver: 266 filas limpiadas para pais=OSO002 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:02 | INFO     | predespacho_etl | Silver: 1032 filas limpiadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:03 | INFO     | predespacho_etl | Gold: 369 filas insertadas para pais=OSO002 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:03 | INFO     | predespacho_etl | Gold: 266 filas insertadas para pais=OSO002 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:03 | INFO     | predespacho_etl | Gold: 1032 filas insertadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:03 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO003 -> data\bronze\fecha=2026-09-07\pais=OSO003\PUB004-PRE-20260907-OSO003-134850.xlsx
+2026-09-06 15:10:04 | INFO     | predespacho_etl | Silver: 48 filas limpiadas para pais=OSO003 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:04 | INFO     | predespacho_etl | Silver: 55 filas limpiadas para pais=OSO003 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:04 | INFO     | predespacho_etl | Silver: 1632 filas limpiadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:05 | INFO     | predespacho_etl | Gold: 48 filas insertadas para pais=OSO003 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:05 | INFO     | predespacho_etl | Gold: 53 filas insertadas para pais=OSO003 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:05 | INFO     | predespacho_etl | Gold: 1632 filas insertadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:05 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO004 -> data\bronze\fecha=2026-09-07\pais=OSO004\PUB004-PRE-20260907-OSO004-134822.xlsx
+2026-09-06 15:10:06 | INFO     | predespacho_etl | Silver: 354 filas limpiadas para pais=OSO004 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:06 | INFO     | predespacho_etl | Silver: 48 filas limpiadas para pais=OSO004 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:06 | INFO     | predespacho_etl | Silver: 1704 filas limpiadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:07 | INFO     | predespacho_etl | Gold: 342 filas insertadas para pais=OSO004 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:07 | INFO     | predespacho_etl | Gold: 48 filas insertadas para pais=OSO004 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:08 | INFO     | predespacho_etl | Gold: 1704 filas insertadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:08 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO005 -> data\bronze\fecha=2026-09-07\pais=OSO005\PUB004-PRE-20260907-OSO005-134752.xlsx
+2026-09-06 15:10:09 | INFO     | predespacho_etl | Silver: 276 filas limpiadas para pais=OSO005 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:09 | INFO     | predespacho_etl | Silver: 72 filas limpiadas para pais=OSO005 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:09 | INFO     | predespacho_etl | Silver: 1728 filas limpiadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:09 | INFO     | predespacho_etl | Gold: 66 filas insertadas para pais=OSO005 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:09 | INFO     | predespacho_etl | Gold: 72 filas insertadas para pais=OSO005 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:10 | INFO     | predespacho_etl | Gold: 1728 filas insertadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:10 | INFO     | predespacho_etl | Bronze OK fecha=2026-09-07 pais=OSO006 -> data\bronze\fecha=2026-09-07\pais=OSO006\PUB004-PRE-20260907-OSO006-134948.xlsx
+2026-09-06 15:10:12 | INFO     | predespacho_etl | Silver: 600 filas limpiadas para pais=OSO006 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:12 | INFO     | predespacho_etl | Silver: 0 filas limpiadas para pais=OSO006 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:12 | INFO     | predespacho_etl | Silver: 2112 filas limpiadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:12 | INFO     | predespacho_etl | Gold: 600 filas insertadas para pais=OSO006 tipo=TCP fecha=2026-09-07
+2026-09-06 15:10:12 | INFO     | predespacho_etl | Gold: 0 filas insertadas para pais=OSO006 tipo=TOP fecha=2026-09-07
+2026-09-06 15:10:13 | INFO     | predespacho_etl | Gold: 2112 filas insertadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-07
+2026-09-06 15:10:13 | INFO     | predespacho_etl | === Pipeline OK fecha=2026-09-07 paises=6/6 filas=86609 ===

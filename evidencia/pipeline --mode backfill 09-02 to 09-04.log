@@ -1,0 +1,94 @@
+2026-09-06 13:34:29 | INFO     | test_backfill | === Iniciando pipeline para fecha=2026-09-02 ===
+2026-09-06 13:34:29 | INFO     | test_backfill | Descargando Predespacho fecha=2026-09-02 -> C:\Users\David\AppData\Local\Temp\predespacho_20260902_vtpm6faj\PUB004-PRE-20260902.zip
+2026-09-06 13:34:32 | INFO     | test_backfill | Descarga OK fecha=2026-09-02 tamaño=12156536 bytes
+2026-09-06 13:34:32 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO001 -> data\bronze\fecha=2026-09-02\pais=OSO001\PUB004-PRE-20260902-OSO001-141627.xlsx
+2026-09-06 13:34:44 | INFO     | test_backfill | Silver: 515 filas limpiadas para pais=OSO001 tipo=TCP fecha=2026-09-02
+2026-09-06 13:34:44 | INFO     | test_backfill | Silver: 102146 filas limpiadas para pais=OSO001 tipo=TOP fecha=2026-09-02
+2026-09-06 13:34:44 | INFO     | test_backfill | Silver: 5592 filas limpiadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:34:44 | INFO     | test_backfill | Gold: 515 filas insertadas para pais=OSO001 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:02 | INFO     | test_backfill | Gold: 102146 filas insertadas para pais=OSO001 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:02 | INFO     | test_backfill | Gold: 5592 filas insertadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:02 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO002 -> data\bronze\fecha=2026-09-02\pais=OSO002\PUB004-PRE-20260902-OSO002-141923.xlsx
+2026-09-06 13:35:03 | INFO     | test_backfill | Silver: 308 filas limpiadas para pais=OSO002 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Silver: 388 filas limpiadas para pais=OSO002 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Silver: 1032 filas limpiadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Gold: 308 filas insertadas para pais=OSO002 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Gold: 388 filas insertadas para pais=OSO002 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Gold: 1032 filas insertadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:03 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO003 -> data\bronze\fecha=2026-09-02\pais=OSO003\PUB004-PRE-20260902-OSO003-141834.xlsx
+2026-09-06 13:35:04 | INFO     | test_backfill | Silver: 48 filas limpiadas para pais=OSO003 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Silver: 62 filas limpiadas para pais=OSO003 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Silver: 1632 filas limpiadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO003 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Gold: 53 filas insertadas para pais=OSO003 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Gold: 1632 filas insertadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:04 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO004 -> data\bronze\fecha=2026-09-02\pais=OSO004\PUB004-PRE-20260902-OSO004-141752.xlsx
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 367 filas limpiadas para pais=OSO004 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 48 filas limpiadas para pais=OSO004 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 1704 filas limpiadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Gold: 367 filas insertadas para pais=OSO004 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO004 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Gold: 1704 filas insertadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO005 -> data\bronze\fecha=2026-09-02\pais=OSO005\PUB004-PRE-20260902-OSO005-141704.xlsx
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 94 filas limpiadas para pais=OSO005 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 96 filas limpiadas para pais=OSO005 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Silver: 1728 filas limpiadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO005 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:05 | INFO     | test_backfill | Gold: 96 filas insertadas para pais=OSO005 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:06 | INFO     | test_backfill | Gold: 1728 filas insertadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:06 | INFO     | test_backfill | Bronze OK fecha=2026-09-02 pais=OSO006 -> data\bronze\fecha=2026-09-02\pais=OSO006\PUB004-PRE-20260902-OSO006-142006.xlsx
+2026-09-06 13:35:06 | INFO     | test_backfill | Silver: 576 filas limpiadas para pais=OSO006 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:06 | INFO     | test_backfill | Silver: 0 filas limpiadas para pais=OSO006 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:06 | INFO     | test_backfill | Silver: 2112 filas limpiadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:07 | INFO     | test_backfill | Gold: 576 filas insertadas para pais=OSO006 tipo=TCP fecha=2026-09-02
+2026-09-06 13:35:07 | INFO     | test_backfill | Gold: 0 filas insertadas para pais=OSO006 tipo=TOP fecha=2026-09-02
+2026-09-06 13:35:07 | INFO     | test_backfill | Gold: 2112 filas insertadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-02
+2026-09-06 13:35:07 | INFO     | test_backfill | === Pipeline OK fecha=2026-09-02 paises=6/6 filas=118393 ===
+2026-09-06 13:35:07 | INFO     | test_backfill | === Iniciando pipeline para fecha=2026-09-03 ===
+2026-09-06 13:35:07 | INFO     | test_backfill | Descargando Predespacho fecha=2026-09-03 -> C:\Users\David\AppData\Local\Temp\predespacho_20260903_1jt6e3so\PUB004-PRE-20260903.zip
+2026-09-06 13:35:09 | INFO     | test_backfill | Descarga OK fecha=2026-09-03 tamaño=10837595 bytes
+2026-09-06 13:35:09 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO001 -> data\bronze\fecha=2026-09-03\pais=OSO001\PUB004-PRE-20260903-OSO001-134812.xlsx
+2026-09-06 13:35:21 | INFO     | test_backfill | Silver: 477 filas limpiadas para pais=OSO001 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:21 | INFO     | test_backfill | Silver: 90814 filas limpiadas para pais=OSO001 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:21 | INFO     | test_backfill | Silver: 5592 filas limpiadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:21 | INFO     | test_backfill | Gold: 477 filas insertadas para pais=OSO001 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:41 | INFO     | test_backfill | Gold: 90814 filas insertadas para pais=OSO001 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:41 | INFO     | test_backfill | Gold: 5592 filas insertadas para pais=OSO001 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:41 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO002 -> data\bronze\fecha=2026-09-03\pais=OSO002\PUB004-PRE-20260903-OSO002-135034.xlsx
+2026-09-06 13:35:42 | INFO     | test_backfill | Silver: 274 filas limpiadas para pais=OSO002 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Silver: 349 filas limpiadas para pais=OSO002 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Silver: 1032 filas limpiadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Gold: 274 filas insertadas para pais=OSO002 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Gold: 349 filas insertadas para pais=OSO002 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Gold: 1032 filas insertadas para pais=OSO002 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:42 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO003 -> data\bronze\fecha=2026-09-03\pais=OSO003\PUB004-PRE-20260903-OSO003-135002.xlsx
+2026-09-06 13:35:43 | INFO     | test_backfill | Silver: 48 filas limpiadas para pais=OSO003 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Silver: 62 filas limpiadas para pais=OSO003 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Silver: 1632 filas limpiadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO003 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Gold: 53 filas insertadas para pais=OSO003 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Gold: 1632 filas insertadas para pais=OSO003 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:43 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO004 -> data\bronze\fecha=2026-09-03\pais=OSO004\PUB004-PRE-20260903-OSO004-134930.xlsx
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 361 filas limpiadas para pais=OSO004 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 48 filas limpiadas para pais=OSO004 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 1704 filas limpiadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Gold: 361 filas insertadas para pais=OSO004 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO004 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Gold: 1704 filas insertadas para pais=OSO004 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO005 -> data\bronze\fecha=2026-09-03\pais=OSO005\PUB004-PRE-20260903-OSO005-134907.xlsx
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 100 filas limpiadas para pais=OSO005 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 96 filas limpiadas para pais=OSO005 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Silver: 1728 filas limpiadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:44 | INFO     | test_backfill | Gold: 48 filas insertadas para pais=OSO005 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:45 | INFO     | test_backfill | Gold: 96 filas insertadas para pais=OSO005 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:45 | INFO     | test_backfill | Gold: 1728 filas insertadas para pais=OSO005 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:45 | INFO     | test_backfill | Bronze OK fecha=2026-09-03 pais=OSO006 -> data\bronze\fecha=2026-09-03\pais=OSO006\PUB004-PRE-20260903-OSO006-135109.xlsx
+2026-09-06 13:35:45 | INFO     | test_backfill | Silver: 576 filas limpiadas para pais=OSO006 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | Silver: 0 filas limpiadas para pais=OSO006 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | Silver: 2112 filas limpiadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | Gold: 576 filas insertadas para pais=OSO006 tipo=TCP fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | Gold: 0 filas insertadas para pais=OSO006 tipo=TOP fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | Gold: 2112 filas insertadas para pais=OSO006 tipo=PEXANTE fecha=2026-09-03
+2026-09-06 13:35:46 | INFO     | test_backfill | === Pipeline OK fecha=2026-09-03 paises=6/6 filas=106944 ===
+2026-09-06 13:35:46 | INFO     | test_backfill | Fecha 2026-09-04 ya cargada, se omite.
+2026-09-06 13:35:46 | INFO     | test_backfill | === Backfill terminado: 2 OK, 0 fallidas de 2 fechas ===
