@@ -50,6 +50,7 @@ columnas de negocio distintos (ver Decisiones de Diseño para el porqué).
 
 ## ESTRUCTURA DEL PROYECTO
 
+```
 edecsa_predespacho/
 ├── main.py                     # Punto de entrada CLI (--mode daily|backfill)
 ├── requirements.txt            # Dependencias del proyecto
@@ -80,6 +81,7 @@ edecsa_predespacho/
 │   ├── bronze/                 # Salida capa Bronze (excluida de Git, se genera en ejecución)
 │   └── silver/                 # Salida capa Silver (excluida de Git, se genera en ejecución)
 └── logs/                       # Logs de ejecución (excluidos de Git)
+```
 
 **Nota sobre `__init__.py`:** cada carpeta dentro de `src/` (`config/`,
 `extractor/`, `processing/`, `db/`, `orchestration/`, `utils/`) contiene
