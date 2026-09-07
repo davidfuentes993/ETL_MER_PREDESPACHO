@@ -440,17 +440,6 @@ Estas son las limitaciones conscientes del alcance actual:
   después sí reintentará esa fecha específica (gracias a la
   idempotencia), pero no ocurre automáticamente dentro de la misma
   ejecución.
-- **Sin control de velocidad de peticiones (*throttling*) al portal.**
-  Un backfill de rango amplio (por ejemplo, todo el histórico desde 2013)
-  no introduce pausas entre descargas. En un uso intensivo real, valdría
-  la pena agregar un límite de peticiones por segundo para no sobrecargar
-  el portal del EOR ni arriesgarse a un bloqueo temporal por parte de su
-  infraestructura.
-- **Sin pruebas automatizadas (unit tests).** La validación de cada
-  componente se hizo de forma manual e incremental contra el portal y
-  archivos reales durante el desarrollo (documentado en el historial de
-  commits), pero no existe una suite de tests automatizados (`pytest` o
-  similar) ni integración continua (CI) que las ejecute en cada cambio.
 - **Backfill secuencial, no paralelo.** Cada fecha se procesa una tras
   otra. Para rangos históricos muy amplios (años de backfill), el tiempo
   total de ejecución podría beneficiarse de paralelizar la descarga
@@ -460,24 +449,7 @@ Estas son las limitaciones conscientes del alcance actual:
   alcance de esta prueba, pero en un entorno productivo real (como el
   stack de EDECSA con Azure) se esperaría un mecanismo de secretos
   administrado, como Azure Key Vault.
-- **Dependencia estricta de la estructura exacta del template del EOR.**
-  El pipeline asume nombres de columna, número de hojas y fila de
-  encabezado estables. Si el EOR modifica su plantilla de Excel (agrega/
-  renombra una columna de negocio, cambia la fila de encabezado), el
-  pipeline fallará de forma explícita (`SilverTransformationError` o
-  `KeyError`) en vez de continuar silenciosamente con datos incompletos
-  — comportamiento deliberado ("fail-fast"), pero requeriría ajuste
-  manual del código ante un cambio real del portal.
-- **Semántica de negocio de columnas no validada con un experto de
-  dominio.** Columnas como los "Bloques de oferta 1-5" o los distintos
-  valores de `Tipo Transacción`/`Tipo Contrato` se preservan tal cual las
-  entrega el EOR, sin una interpretación de negocio validada más allá de
-  lo inferible por su nombre — recomendable confirmarlo con un experto
-  del área comercial de EDECSA antes de un uso analítico crítico.
-- **Observación no resuelta: TOP con 0 filas para Panamá (OSO006).**
-  Documentado en la sección de Supuestos; no se determinó con certeza si
-  es un patrón de negocio real o una particularidad del periodo de
-  prueba observado.
+-
 - **Sufijo numérico del nombre del Excel no confirmado oficialmente.**
   Se documenta como hipótesis (posible hora de generación del reporte,
   formato `HHMMSS`), sin confirmación directa por parte del EOR.
